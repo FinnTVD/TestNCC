@@ -1,0 +1,19 @@
+@import "./variables";
+
+@mixin responsive_mobile() {
+	@media #{$res_mobile} {
+		@content;
+	}
+}
+
+@mixin responsive_ipad() {
+	@media #{$res_ipad} {
+		@content;
+	}
+}
+
+@mixin responsive_ipad_pro() {
+	@media #{$res_ipad_pro} {
+		@content;
+	}
+}
